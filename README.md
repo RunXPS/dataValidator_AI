@@ -10,3 +10,17 @@ Dowload Docker **[here](https://www.docker.com/products/docker-desktop/)** if ne
 
 To adjust any of the packages you want to use in the project, modify the [requirements.txt](https://github.com/RunXPS/dataValidator_AI/blob/main/requirements.txt)![Uploading image.png…]()
  file. Some packages may already be commented out.   
+
+
+### Meeting 03/30
+- Model is searching for:
+    1) **Industry**
+    2) **Major**
+    3) Hometown* 
+    4) "Software" or "Hardware"*
+    5) Time series ==> other datasets
+        * Have the start dates, not end (@ company)
+        * Years at company
+        * **No EDU data in 2024**
+    6) Industry 'alignment' ==> Did founder stay in the anticipated industry from their major (eg. CS ==> tech startup)
+* Potentially
